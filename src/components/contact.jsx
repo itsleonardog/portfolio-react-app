@@ -21,39 +21,39 @@ const Contact = () => {
   }
 
   return (
-    <div name='contact' className='w-full overflow-y: auto bg-[#0a192f] flex justify-center items-center p-4'>
+    <div name='contact' className='w-full overflow-y: auto bg-[#F4F4F4] flex justify-center items-center p-4'>
       <form ref={refForm} onSubmit={sendEmail} action='' className='flex flex-col max-w-[600px] w-full'>
         <div className='pb-8'>
-          <p className='text-4xl font-bold inline border-b-4 border-pink-600 text-gray-300'>Contact</p>
-          <p className='text-gray-300 py-4'>// I am interested in freelance opportunities - from small projects,
+          <p className='text-4xl font-bold inline border-b-4 border-[#80989B] text-[#C8D5BB]'>Contact</p>
+          <p className='text-[#8A8A8A] py-4'>// I am interested in freelance opportunities - from small projects,
             to big, ambitious ones. Don't hesitate to contact me using the form below!</p>
         </div>
 
         <div class="mb-4">
-          <label class="block text-gray-400 text-sm font-bold mb-2" for="name">
+          <label class="block text-[#8A8A8A] text-sm font-bold mb-2" for="name">
             Name
           </label>
-          <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="name" type="text" placeholder="Name" required />
+          <input class="shadow appearance-none border rounded w-full py-2 px-3 text-[#8A8A8A] leading-tight focus:outline-none focus:shadow-outline" id="name" type="text" placeholder="Name" required />
         </div>
         <div class="mb-6">
-          <label class="block text-gray-400 text-sm font-bold mb-2" for="email">
+          <label class="block text-[#8A8A8A] text-sm font-bold mb-2" for="email">
             Email
           </label>
-          <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="email" type="email" placeholder="Email" required />
+          <input class="shadow appearance-none border rounded w-full py-2 px-3 text-[#8A8A8A] leading-tight focus:outline-none focus:shadow-outline" id="email" type="email" placeholder="Email" required />
         </div>
         <div class="mb-6">
-          <label class="block text-gray-400 text-sm font-bold mb-2" for="subject">
+          <label class="block text-[#8A8A8A] text-sm font-bold mb-2" for="subject">
             Subject
           </label>
-          <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="subject" type="text" placeholder="Subject" required />
+          <input class="shadow appearance-none border rounded w-full py-2 px-3 text-[#8A8A8A] leading-tight focus:outline-none focus:shadow-outline" id="subject" type="text" placeholder="Subject" required />
         </div>
         <div class="mb-6">
-          <label class="block text-gray-400 text-sm font-bold mb-2" for="message">
+          <label class="block text-[#8A8A8A] text-sm font-bold mb-2" for="message">
             Message
           </label>
-          <textarea class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="message" placeholder="Message" rows='5' required></textarea>
+          <textarea class="shadow appearance-none border rounded w-full py-2 px-3 text-[#8A8A8A] leading-tight focus:outline-none focus:shadow-outline" id="message" placeholder="Message" rows='5' required></textarea>
         </div>
-        <input className='text-white border-2 hover:bg-pink-600 hover:border-pink-600 px-4 py-3 my-8 mx-auto flex items-center' type='submit' value='SEND' />
+        <input className='text-[#80989B] border-2 hover:bg-[#80989B] hover:text-[#F4F4F4] hover:border-[#80989B] px-4 py-3 my-8 mx-auto flex items-center' type='submit' value='SEND' />
 
         {/* <input className='bg-[#ccd6f6]' type='text' name='name' placeholder='Name' required></input>
         <input className='my-4 p-2 bg-[#ccd6f6]' type='email' name='email' placeholder='Email' required></input>
