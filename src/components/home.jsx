@@ -9,8 +9,8 @@ const Home = () => {
       {/* Container */}
       <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
         <p className='text-[#80989B]'>Hi, my name is</p>
-        <h1 className='text-4xl sm:text-7 font-bold text-[#C8D5BB]'>Leonardo Genzolini</h1>
-        <h2 className='text-4xl sm:text-7xl font-bold text-[#80989B]'>I'm a Full Stack Developer.</h2>
+        <h1 className='text-4xl sm:text-7 font-bold text-[#C8D5BB]'>Leonardo Genzolini,</h1>
+        <h2 className='text-4xl sm:text-7xl font-bold text-[#80989B]'>Full Stack Developer.</h2>
         <p className='text-[#8A8A8A] py-4 max-w-[700px]'>I'm a versatile and problem-solving-oriented Fullstack Developer,
         with experience in both front-end development, and back-end development.
         My knowledge of databases along with API integration and RESTful web services,
