@@ -53,7 +53,7 @@ const Contact = () => {
           </label>
           <textarea class="shadow appearance-none border rounded w-full py-2 px-3 text-[#8A8A8A] leading-tight focus:outline-none focus:shadow-outline" id="message" placeholder="Message" rows='5' required></textarea>
         </div>
-        <input className='text-[#80989B] border-2 hover:bg-[#80989B] hover:text-[#F4F4F4] hover:border-[#80989B] px-4 py-3 my-8 mx-auto flex items-center' type='submit' value='SEND' />
+        <input className='text-[#80989B] border-2 hover:bg-[#80989B] hover:text-[#F4F4F4] hover:border-[#80989B] px-4 py-3 my-8 mx-auto flex items-center cursor-pointer' type='submit' value='SEND' />
 
         {/* <input className='bg-[#ccd6f6]' type='text' name='name' placeholder='Name' required></input>
         <input className='my-4 p-2 bg-[#ccd6f6]' type='email' name='email' placeholder='Email' required></input>

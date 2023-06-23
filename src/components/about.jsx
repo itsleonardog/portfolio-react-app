@@ -13,22 +13,43 @@ function About() {
           </div>
           <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
             <div className='sm:text-right text-4xl font-bold'>
-            <img className='w-40 rounded-full shadow-lg shadow-[#D4DCDA] mx-auto' src={Leonardo} alt='Leonardo' />
+            <img className='rounded-full w-40 shadow-lg shadow-[#D4DCDA] mx-auto' src={Leonardo} alt='Leonardo' />
               {/* <p>
                 Hi, I'm Leonardo
               </p> */}
             </div>
             <div>
               <p>
-                I'm a Full-stack Developer from Italy, currently based in Perugia.
+                My journey with coding started during my years at university, curious
+                to understand how softwares work and eager to explore the world of programming.
+                As I delved into the realm of coding, I found myself captivated by its
+                limitless possibilities and the ability to bring ideas to life through lines of code.
               </p>
               <br />
               <p>
-              I have a deep passion for developing outstanding software solutions
-              that have a positive impact on the lives of people around me.
-              My expertise lies in crafting software applications for a diverse
-              range of clients, including individuals, small businesses, and large enterprises.
+                Over the years, I have honed my skills in various programming languages such as
+                Ruby, JavaScript, and React, gaining expertise in both front-end and back-end development.
+                From building interactive websites to developing scalable web applications, I have
+                embraced the challenges that come with each project and have consistently sought opportunities
+                to expand my knowledge and refine my craft.
               </p>
+              <br />
+              <p>
+                When I'm not coding, you can find me sitting at my piano, where I channel my artistic expression into
+                composing music for my alter-ego Tuisku. Through music, I am able to delve into a realm of harmonies that
+                bring my emotions to life.
+              </p>
+              {/* <br />
+              <p>
+                I also enjoy taking leisurely walks and capturing moments with my trusty film cameras.
+                There's just something special about the tangible nature of film photography,
+                as it allows me to freeze time and preserve memories in a way that feels authentic and nostalgic.
+              </p> */}
+              {/* <br />
+              <p>
+                These creative endeavors provide a balance to my coding journey, nurturing my imagination and allowing
+                me to explore different forms of self-expression.
+              </p> */}
             </div>
           </div>
         </div>
