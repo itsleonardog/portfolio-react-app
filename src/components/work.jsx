@@ -1,7 +1,7 @@
 import React from 'react'
 import MemoMio from '../assets/memomio.png'
 import NewBnb from '../assets/newbnb.png'
-import FindABand from '../assets/findaband.png'
+import Conversa from '../assets/conversa.png'
 
 const Work = () => {
   return (
@@ -51,19 +51,19 @@ const Work = () => {
             </div>
           </div>
 
-          <div style={{backgroundImage: `url(${FindABand})`}}
+          <div style={{backgroundImage: `url(${Conversa})`}}
           className='shadow-lg shadow-[#80989B] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
             {/* Hover fx */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider text-center'>
-                find-A-band
+                Conversa
               </span>
               <div className='pt-8 text-center'>
-                <a href='https://itsleonardog.github.io/find-a-band/'>
+                <a href='https://conversa-chat.netlify.app/'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                 </a>
-                <a href='https://github.com/itsleonardog/find-a-band'>
+                <a href='https://github.com/itsleonardog/conversa'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                 </a>
               </div>
