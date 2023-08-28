@@ -25,7 +25,7 @@ const Contact = () => {
       <form ref={refForm} onSubmit={sendEmail} action='' className='flex flex-col max-w-[600px] w-full'>
         <div className='pb-8'>
           <p className='text-4xl font-bold inline border-b-4 border-[#80989B] text-[#C8D5BB]'>Contact</p>
-          <p className='text-[#8A8A8A] py-4'>// I am interested in freelance opportunities - from small projects,
+          <p className='text-[#8A8A8A] py-4'>// I am interested in any kind of opportunities - from small projects,
             to big, ambitious ones. Don't hesitate to contact me using the form below!</p>
         </div>
 
